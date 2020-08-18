@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Página principal
 Route::get('/', function () {
     return view('welcome');
+});
+
+// páginas estáticas
+Route::get('/nosotros',function(){
+    return view('nosotros');
+});
+Route::get('/servicios',function(){
+    return view('servicios');
+});
+Route::get('/contacto',function(){
+    return view('contacto');
 });
