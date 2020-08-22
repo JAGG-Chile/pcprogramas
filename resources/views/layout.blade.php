@@ -16,47 +16,18 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     
-    <title>PCPROGRAMAS - Software & Soporte</title>
+    <title>@yield('title')</title>
 </head>
 
 <body>
     <header>
-        <nav class=" fixed-top navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">PCPROGRAMAS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/nosotros">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/servicios">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+        @include('partials/navbar')
     </header>
     <main>
-
         @yield('content')
-
     </main>
     <footer class="fixed-bottom">
-        <div class="row">
-            <div class="col"><i class="fab fa-whatsapp"></i> (56) 957142282</div>
-            <div class="col"><i class="far fa-envelope"></i> informatico.juangarcia@gmail.com</div>
-            <div class="col"><i class="fas fa-map-marker-alt"></i> Pdte. Juan Luis Sanfuentes 2641, Maipú. Santiago.</div>
-        </div>
+        @include('partials/footer')
     </footer>
 
     <!-- Optional JavaScript -->

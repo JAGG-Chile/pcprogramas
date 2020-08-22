@@ -1,0 +1,33 @@
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= /
+ 
+body { ... }
+p    { ... }*/
+
+footer {
+    font-size:13px;
+}
+
+footer span {
+    padding-left: 7px;
+}
+
+footer div {
+    margin: 2px 0px 2px 10px;
+    text-align:left;
+}
+
+/* RESPONSIVE
+   ========================================================================= */
+
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) { }
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) { }
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) { }

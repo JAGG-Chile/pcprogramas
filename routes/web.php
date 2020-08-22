@@ -13,18 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Página principal
-Route::get('/', function () {
-    return view('welcome');
-});
+//Menú de Navegación
+Route::view('/', 'welcome')->name('home');
+Route::view('nosotros','nosotros')->name('acercade');
+Route::view('servicios','servicios')->name('servicios');
+Route::view('contacto','contacto')->name('contacto');
+Route::view('contacto-respuesta','contacto-respuesta')->name('respuesta-contacto');
 
-// páginas estáticas
-Route::get('/nosotros',function(){
-    return view('nosotros');
-});
-Route::get('/servicios',function(){
-    return view('servicios');
-});
-Route::get('/contacto',function(){
-    return view('contacto');
-});
+//Formularios
+Route::post('contacto','MensajesController@store')->name('postcontacto');
