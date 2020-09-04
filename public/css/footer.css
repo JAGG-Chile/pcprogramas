@@ -4,8 +4,17 @@
 body { ... }
 p    { ... }*/
 
+/* footer {
+   font-family: 'Baloo Tamma 2', cursive;
+   background-color:#193737;
+   color:#ffffff;
+} */
+
 footer {
-    font-size:13px;
+   font-family: 'Baloo Tamma 2', cursive;
+   background-color:#193737;
+   color:#ffffff;
+   font-size:0.7rem;
 }
 
 footer span {
@@ -13,7 +22,7 @@ footer span {
 }
 
 footer div {
-    margin: 2px 0px 2px 10px;
+    margin: 2px 5px;
     text-align:left;
 }
 
@@ -22,11 +31,24 @@ footer div {
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
-@media (min-width: 768px) { }
- 
+@media (min-width: 768px) {
+
+ footer {
+   font-size:20px;
+ } 
+
+}
+
 /* Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- */
-@media (min-width: 1024px) { }
+@media (min-width: 1024px) {
+   footer {
+      font-size:14px;
+   } 
+   footer div {
+      text-align: center;
+   }
+ }
  
 /* Escritorios muy anchos
    ------------------------------------------------------------------------- */

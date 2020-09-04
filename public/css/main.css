@@ -1,0 +1,192 @@
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= /
+ 
+body { ... }
+p    { ... }*/
+
+/* clase del titulo H1 */
+.display-4 {
+    margin-bottom:0px;
+}
+
+.contenedor {
+    width:100%;
+    height:auto;
+    margin: 80px 0px 0px 0px;
+    padding: 10px;
+    color:#fff;
+}
+
+/* Titulo */
+.contenedor h1 {
+    margin:0px;
+    padding-bottom: 5px;
+    font-size:1rem;
+}
+
+.contenedor p {
+    font-size: 0.7rem;
+}
+
+.contenedor a {
+    font-size:0.7rem;
+}
+
+.contenedor li {
+    font-size:0.7rem;
+}
+
+.contenedor h5 {
+    font-size:0.7rem;
+}
+
+.contenedor h4 {
+    font-size:0.7rem;
+}
+
+.contenedor label {
+    font-size:0.5rem;
+}
+
+.contenedor input {
+    font-size:0.7rem;
+}
+
+.contenedor textarea {
+    font-size:0.7rem;
+}
+
+.btn {
+    font-size:0.7rem !important;
+}
+
+.boton {
+    text-align:right;
+    padding:20px 10px;
+}
+
+small {
+    color:red;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+
+/* RESPONSIVE
+   ========================================================================= */
+
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+
+    .contenedor {
+        padding-left:40px;
+        padding-right: 40px;
+    }
+    .contenedor h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .contenedor p {
+        font-size: 1.4rem;
+    }
+
+    .contenedor a {
+        font-size:1.4rem;
+    }
+
+    .contenedor li {
+        font-size:1.4rem;
+    }
+
+    .contenedor h5 {
+        font-size:1.4rem;
+    }
+
+    .contenedor h4 {
+        font-size:1.4rem;
+    }
+    
+    .contenedor label {
+        font-size:1.2rem;
+    }
+
+    .contenedor input {
+        font-size:1.2rem;
+    }
+
+    .contenedor textarea {
+        font-size:1.2rem;
+    }
+
+    .btn {
+        font-size:1.5rem !important;
+    }
+
+    small {
+        font-size:1.5rem;
+        color:red;
+    }
+
+}
+
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+
+.contenedor {
+    width:40%;
+    margin:100px 0px 0px 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    background-color: rgb(120, 222, 248);
+    border-radius: 10px;
+    color:rgb(37, 37, 37); */
+}
+
+.contenedor li {
+    font-size:1.2rem;
+}
+.contenedor p {
+    font-size: 1.1rem;
+}
+
+.contenedor h4 {
+    font-size:1.2rem;
+}
+
+.contenedor label {
+    font-size:0.8rem;
+}
+
+.contenedor input {
+    font-size:0.9rem;
+
+}
+
+.contenedor textarea {
+    font-size:0.9rem;
+}
+
+.btn {
+    font-size:1rem !important;
+}
+
+small {
+    font-size:0.7rem;
+    color:red;
+}
+
+.contenedor img {
+    width:75%;
+    height: auto;
+}
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) { }

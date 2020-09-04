@@ -3,19 +3,17 @@
 @section('title','Acerca de')
 
 @section('content')
-<div class="row">
-    <div style="background:transparent !important;color:#fff;" class="col jumbotron">
+    <div class="contenedor"> <!--style="background:transparent !important;color:#fff;" -->
         <h1 class="display-4">Acerca de mí.</h1><br>
-        <p class="lead">Mi nombre es Juan García, soy Programador desde 1992. El año 2015 comencé a ofrecer mis servicios profesionales en modalidad freelance. <br>Las tecnologías que utilizo son:</p>
+        <p class="lead">Mi nombre es Juan García, soy Programador desde 1992. Desarrollo aplicaciones web desde el año 2015. <br>Las tecnologías que utilizo son:</p>
         <ul>
-            <li>PHP con Laravel y MySQL</li>
-            <li>MEAN (MongoDB,Express,Angular,Nodejs)</li>
+            <li>PHP con Laravel, MySQL, Bootstrap.</li>
+            <li>HTML, CSS, Javascript, Wordpress.</li>
         </ul>
         <hr class="my-4">
-        <h5>¡ Y ahora también ! Soporte técnico informático.</h5>
-        <a class="btn btn-primary btn-lg" href="/contacto" role="button">Contáctame</a>
+        <h5>También servicios de Soporte y Consultoría en informática.</h5>
+        <div class="boton">
+            <a class="btn btn-primary btn-lg" href="/contacto" role="button">Contáctame</a>
+        </div>  
     </div>
-    <div class="col"></div>
-    <div class="col"></div>
-</div>
 @endsection

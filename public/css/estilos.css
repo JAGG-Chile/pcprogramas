@@ -1,5 +1,6 @@
 @import url('normalize.css');
 @import url('footer.css');
+@import url('main.css');
 
 body{
     background: url('../img/desarrollo-software.jpg') no-repeat center center fixed;
@@ -23,22 +24,5 @@ body::after {
     z-index: -1;   
   }
 
-footer {
-    font-family: 'Baloo Tamma 2', cursive;
-    background-color:#193737;
-    color:#ffffff;
-}
 
-.jumbotron {
-    width:100%; /* 40% */
-    height: auto;
-    margin-top: 10px; /*100px*/
-    margin-left: 10px; /*100px*/
-    /*opacity: 75%; */
-}
-
-.boton {
-    text-align:right;
-    padding:30px 10px 10px 0px;
-}
 
