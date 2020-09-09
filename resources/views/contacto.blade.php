@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Contacto')
+@section('title','PCPROGRAMAS - Contacto')
 
 @section('content')
 <div class="contenedor">

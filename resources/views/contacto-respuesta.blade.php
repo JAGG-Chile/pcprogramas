@@ -5,11 +5,11 @@
 @section('content')
     <div class="contenedor">
         <h1 class="display-4">¡ Gracias !</h1>
-        <p class="lead">Hemos recibido tu mensaje correctamente.<br><br>Se ha generado un mensaje de confirmación al
-            correo que has
+        <p class="lead">Hemos recibido su mensaje correctamente.<br><br>Se ha generado un mensaje de confirmación al
+            correo que ha
             ingresado.</p>
         <hr class="my-4">
-        <h5>No olvides revisar tu carpeta de Correos No Deseados si no recibes la confirmación.</h5><br>
+        <h5>No olvide revisar su carpeta de Correos No Deseados si no recibe la confirmación.</h5><br>
         <div class="row">
             <div class="col">
                 <a class="btn btn-primary btn-lg" href="{{ route('home') }}" role="button">Volver</a>
